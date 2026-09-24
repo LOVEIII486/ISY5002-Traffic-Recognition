@@ -1,0 +1,24 @@
+{
+  "input_directory": "C:\\Users\\75643\\Desktop\\ISY5002-Project\\datasets\\raw-old",
+  "output_directory": "C:\\Users\\75643\\Desktop\\ISY5002-Project\\results\\02_dataset",
+  "total_images": 11677,
+  "valid_images": 11677,
+  "invalid_images": 0,
+  "camera_count": 8,
+  "images_by_camera": {
+    "2701": 1459,
+    "2702": 1460,
+    "2704": 1460,
+    "2706": 1459,
+    "4703": 1460,
+    "4707": 1460,
+    "4712": 1459,
+    "4713": 1460
+  },
+  "duplicate_groups": 350,
+  "duplicate_files": 562,
+  "time_range": {
+    "start": "2025-10-15T13:42:50+00:00",
+    "end": "2025-10-22T05:56:01+00:00"
+  }
+}

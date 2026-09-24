@@ -1,0 +1,28 @@
+{
+  "model": "C:\\Users\\75643\\Desktop\\ISY5002-Project\\yolo\\yolo26m.pt",
+  "camera_id": "all",
+  "requested_images": 11677,
+  "processed_images": 11677,
+  "failed_images": [],
+  "total_detections": 137537,
+  "average_inference_time_ms": 32.21,
+  "imgsz": 1280,
+  "confidence": 0.25,
+  "iou": 0.5,
+  "device": "0",
+  "class_ids": [
+    1,
+    2,
+    3,
+    5,
+    7
+  ],
+  "classes": [
+    "bicycle",
+    "car",
+    "motorcycle",
+    "bus",
+    "truck"
+  ],
+  "annotated_images_saved": true
+}

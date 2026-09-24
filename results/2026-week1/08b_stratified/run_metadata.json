@@ -1,0 +1,9 @@
+{
+  "dataset_tag": "2026-week1",
+  "batch": "run_20260923_203513",
+  "interval_minutes": 10,
+  "labelled_samples": 10185,
+  "unlabelled_samples": 4791,
+  "labelled_fraction": 0.6801,
+  "created_at": "2026-09-24T01:15:27.275379+00:00"
+}

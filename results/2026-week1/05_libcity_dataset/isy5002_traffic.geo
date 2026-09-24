@@ -1,0 +1,9 @@
+geo_id,type,coordinates,region
+2701,Point,"[103.7716543, 1.447023728]",Causeway
+2702,Point,"[103.7683397, 1.445554109]",Causeway
+2704,Point,"[103.769311, 1.429588536]",Causeway
+4703,Point,"[103.6350413, 1.348697862]",Second_Link
+4712,Point,"[103.6439134, 1.341244001]",Second_Link
+4713,Point,"[103.6366955, 1.347645829]",Second_Link
+4798,Point,"[103.823611110166, 1.25999999687243]",Sentosa_Gateway
+4799,Point,"[103.823888890049, 1.26027777363278]",Sentosa_Gateway

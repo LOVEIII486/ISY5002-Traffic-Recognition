@@ -1,0 +1,21 @@
+{
+  "dataset_name": "isy5002_traffic",
+  "dataset_tag": "",
+  "camera_metadata_source": "",
+  "node_count": 8,
+  "camera_ids": [
+    "2701",
+    "2702",
+    "2704",
+    "4703",
+    "4712",
+    "4713",
+    "4798",
+    "4799"
+  ],
+  "start_time": "2026-09-13T06:30:00Z",
+  "end_time": "2026-09-20T15:50:00Z",
+  "interval_minutes": 10,
+  "imputed_records": 2484,
+  "note": "Coordinates are [longitude, latitude]. Missing camera coordinates use [0.0, 0.0]."
+}

@@ -1,0 +1,18 @@
+# torch / torchvision 不在本文件内：它们要按 GPU 架构选 CUDA 版本，
+# 安装方式见 README 的「环境」一节。其余依赖直接：
+#   pip install -r requirements.txt
+
+ultralytics==8.4.160
+opencv-python==5.0.0.93
+pillow==12.3.0
+numpy==2.5.2
+scipy==1.18.1
+pandas==3.0.6
+scikit-learn==1.9.1
+matplotlib==3.11.2
+gradio==6.28.0
+hyperopt==0.3.0
+networkx==3.6.1
+pyyaml==6.0.3
+tqdm==4.70.1
+requests==2.34.2

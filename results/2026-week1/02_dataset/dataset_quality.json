@@ -1,0 +1,25 @@
+{
+  "dataset_tag": "2026-week1",
+  "input_directory": "C:\\Users\\Setekh\\Desktop\\ISY5002-Project\\datasets\\raw-2026-week1",
+  "output_directory": "C:\\Users\\Setekh\\Desktop\\ISY5002-Project\\results\\2026-week1\\02_dataset",
+  "total_images": 7321,
+  "valid_images": 7321,
+  "invalid_images": 0,
+  "camera_count": 8,
+  "images_by_camera": {
+    "2701": 918,
+    "2702": 919,
+    "2704": 924,
+    "4703": 919,
+    "4712": 913,
+    "4713": 920,
+    "4798": 910,
+    "4799": 898
+  },
+  "duplicate_groups": 3,
+  "duplicate_files": 3,
+  "time_range": {
+    "start": "2026-09-13T06:30:50+00:00",
+    "end": "2026-09-20T15:50:41+00:00"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_tag": "2026-week1",
+  "n_rows": 7321,
+  "cameras": [
+    "2701",
+    "2702",
+    "2704",
+    "4703",
+    "4712",
+    "4713",
+    "4798",
+    "4799"
+  ],
+  "label_bucket": "camera_hour",
+  "min_median_box_height": 10.0,
+  "allow_unreviewed": false,
+  "created_at": "2026-09-24T01:17:50.635935+00:00"
+}

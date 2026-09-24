@@ -1,0 +1,16 @@
+{
+  "camera_id": "4798",
+  "a": 0.0,
+  "b": 1.0,
+  "c": 0.0,
+  "w_min": 71.22920959635594,
+  "area_px": 514240,
+  "area_frac": 0.24799382716049384,
+  "area_eff": 0.005101180635392666,
+  "n_lanes": null,
+  "reviewed": true,
+  "method": "coverage",
+  "size_slope": 0.14039184285026232,
+  "size_r2": 0.2716603883465606,
+  "horizon_row": -0.0
+}

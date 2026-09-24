@@ -1,0 +1,64 @@
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Local third-party source checkout used for LibCity experiments
+third_party/LibCity/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ultralytics model weights and temporary downloads.
+# yolo26x.pt is 113 MB, above GitHub's 100 MB per-file limit, so it stays local.
+# yolo26m.pt is the detector the pipeline actually uses and is tracked.
+yolo/yolo26x.pt
+yolo/*.onnx
+yolo/*.engine
+yolo/*.download
+*.pt.download
+
+# Generated outputs.
+# The summary results that back the reported numbers are tracked. Bulky or regenerable
+# intermediates stay local:
+#   annotated/            full-resolution annotated frames (several GB per dataset)
+#   frame_detections.csv  raw per-box detections
+#   cnn_centers.csv       per-vehicle density centres
+#   models/               per-run model checkpoints (train/weights/ holds the shipped ones)
+#   web_sessions/         demo session logs
+#   00_lta_traffic_images/live API snapshot; coordinates fall back to the built-in
+#                         REFERENCE_COORDINATES table in src/05_prepare_libcity_dataset.py
+results/*/03_yolo_detection/annotated/
+results/*/03_yolo_detection/frame_detections.csv
+results/*/03b_cnn_count/cnn_centers.csv
+results/*/06_libcity_experiment/*/models/
+results/*/09_mvp_demo/web_sessions/
+results/00_lta_traffic_images/
+results/_*/
+results/.*
+
+# Local datasets (keep dataset definitions/metadata tracked separately)
+datasets/
+/PROJECT_REQUIREMENTS.md
+/docs/CODE_DESIGN.md
+/train/TRANCOS_v3/images/
+/train/TRANCOS_v3/results/
+
+# 道路掩码：相机几何资产，纳入版本控制（review 叠加图可随时重生成，不追踪）
+road_masks/review/
+
+# 内部工作笔记（实验结果记录、迁移与校验清单等），不对公开仓库发布
+notes/

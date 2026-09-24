@@ -1,0 +1,19 @@
+{
+  "dataset_tag": "2025-10-week",
+  "step_minutes": 5,
+  "seasonal_lag_steps": 288,
+  "test_samples": 380,
+  "input_window": 12,
+  "output_window": 12,
+  "cameras": [
+    "2701",
+    "2702",
+    "2704",
+    "2706",
+    "4703",
+    "4707",
+    "4712",
+    "4713"
+  ],
+  "created_at": "2026-09-23T14:57:40.068983+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "camera_id": "4703",
+  "a": 0.0,
+  "b": 1.0,
+  "c": 0.0,
+  "w_min": 139.14803940857328,
+  "area_px": 1448877,
+  "area_frac": 0.6987254050925926,
+  "area_eff": 0.07745333760976791,
+  "n_lanes": null,
+  "reviewed": true,
+  "method": "coverage",
+  "size_slope": 0.07186590657334029,
+  "size_r2": 0.10453402075849216,
+  "horizon_row": -0.0
+}

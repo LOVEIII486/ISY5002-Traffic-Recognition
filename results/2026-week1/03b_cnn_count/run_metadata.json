@@ -1,0 +1,19 @@
+{
+  "dataset_tag": "2026-week1",
+  "weights": "C:\\Users\\Setekh\\Desktop\\ISY5002-Project\\train\\weights\\best_lta.pt",
+  "model_config": {
+    "in_channels": 3,
+    "base": 64,
+    "input_size": [
+      360,
+      640
+    ],
+    "sigma": 15.0,
+    "factor": 8
+  },
+  "device": "cuda:0",
+  "requested_images": 7321,
+  "processed_images": 7321,
+  "failed_images": [],
+  "average_inference_time_ms": 26.52
+}

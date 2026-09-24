@@ -1,0 +1,11 @@
+The code is provided for research purposes only. No commercial use is allowed.
+Please cite the above-mentioned paper, should you use this code in the preparation of your publication.
+
+Bibtex:
+@InProceedings{LempitskyZissermanNIPS2010,
+  author       = "Lempitsky, V. and Zisserman, A.",
+  title        = "Learning To Count Objects in Images",
+  booktitle    = "Advances in Neural Information Processing Systems",
+  year         = "2010",
+}
+

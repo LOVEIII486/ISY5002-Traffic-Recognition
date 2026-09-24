@@ -1,0 +1,18 @@
+{
+  "weights": "C:\\Users\\75643\\Desktop\\ISY5002-Project\\train\\weights\\best_lta.pt",
+  "model_config": {
+    "in_channels": 3,
+    "base": 64,
+    "input_size": [
+      360,
+      640
+    ],
+    "sigma": 15.0,
+    "factor": 8
+  },
+  "device": "cuda:0",
+  "requested_images": 11677,
+  "processed_images": 11677,
+  "failed_images": [],
+  "average_inference_time_ms": 17.07
+}
